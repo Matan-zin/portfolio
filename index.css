@@ -9,17 +9,22 @@
 }
 
 html {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     color: white;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(7, 0, 0);
     font-family: 'Inconsolata', monospace;
 }
 
 body {
+    width: 90%;
+    height: 90%;
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 header {
